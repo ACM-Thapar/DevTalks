@@ -34,6 +34,8 @@
   a {
       margin: 0px;
       transition: all 0.4s;
+      text-decoration: none;
+      color: #808080;
       -webkit-transition: all 0.4s;
     -o-transition: all 0.4s;
     -moz-transition: all 0.4s;
