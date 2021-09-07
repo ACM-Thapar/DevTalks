@@ -26,7 +26,7 @@
   body, html {
       height: 100%;
       font-family: 'Chivo', sans-serif;
-      background-color: #425669;
+      background-color: #162839;
   }
   .wrapper{
       background-color: #808080;
@@ -43,6 +43,8 @@
   }
   img{
       width: 20%;
+      padding-left: 10px;
+      padding-top: 10px;
   }
   
   a:focus {
@@ -108,7 +110,7 @@
   .container-table100 {
     width: 100%;
     min-height: 100vh;
-    background: #d1d1d1;
+    background: #162839;
   
     display: -webkit-box;
     display: -webkit-flex;
@@ -154,7 +156,7 @@
   
   .row100 td {
     padding-top: 18px;
-    padding-bottom: 14px;
+    padding-bottom: 18px;
   }
   
   
@@ -169,7 +171,7 @@
   
   .table100.ver1 th {
     font-family: 'Bungee', cursive;
-    font-size: 12px;
+    font-size: 14px;
     color: #fff;
     width: 23%;
     line-height: 1.4;
@@ -195,7 +197,7 @@
     color: #fff;
   }
   a:hover{
-      color: #fff;
+      color: yellow;
   }
 
   @media screen and (max-width:800px)
@@ -203,4 +205,8 @@
       img{
           width:40%;
       }
+  }
+  @media screen and(width:280px) and (height:653px) {
+    
+    
   }
