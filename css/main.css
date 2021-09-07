@@ -18,11 +18,13 @@
   /*//////////////////////////////////////////////////////////////////
   [ RESTYLE TAG ]*/
   * {
-      margin: 0px; 
-      padding: 0px; 
+      margin: 0rem; 
+      padding: 0rem; 
       box-sizing: border-box;
   }
-  
+  body::-webkit-scrollbar{
+    scroll-behavior: smooth;
+  }
   body, html {
       height: 100%;
       font-family: 'Chivo', sans-serif;
@@ -33,7 +35,7 @@
   }
   /* ------------------------------------ */
   a {
-      margin: 0px;
+      margin: 0rem;
       transition: all 0.4s;
       text-decoration: none;
       color: #808080;
@@ -43,8 +45,8 @@
   }
   img{
       width: 20%;
-      padding-left: 10px;
-      padding-top: 10px;
+      padding-left:0.625rem; 
+      padding-top: 0.625rem;
   }
   
   a:focus {
@@ -120,11 +122,11 @@
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    padding: 33px 30px;
+    padding: 2.063rem 1.875rem;
   }
   
   .wrap-table100 {
-    width: 1300px;
+    width: 81.25rem;
   }
   
   /*//////////////////////////////////////////////////////////////////
@@ -136,27 +138,27 @@
   
   th, td {
     font-weight: unset;
-    padding-right: 10px;
+    padding-right: 0.625rem;
   }
   
   .column100 {
-    width: 130px;
-    padding-left: 11px;
+    width: 8.125rem;
+    padding-left: 0.688rem;
   }
   
   .column100.column1 {
-    width: 265px;
-    padding-left: 22px;
+    width: 16.563rem;
+    padding-left: 1.375rem;
   }
   
   .row100.head th {
-    padding-top: 24px;
-    padding-bottom: 20px;
+    padding-top: 1.5rem;
+    padding-bottom: 1.25rem;
   }
   
   .row100 td {
-    padding-top: 18px;
-    padding-bottom: 18px;
+    padding-top: 1.125rem;
+    padding-bottom: 1.125rem;
   }
   
   
@@ -164,14 +166,14 @@
   [ Ver1 ]*/
   .table100.ver1 td {
     font-family: 'Chivo', sans-serif;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #808080;
     line-height: 1.4;
   }
   
   .table100.ver1 th {
     font-family: 'Bungee', cursive;
-    font-size: 14px;
+    font-size: 0.875rem;
     color: #fff;
     width: 23%;
     line-height: 1.4;
@@ -207,6 +209,8 @@
       }
   }
   @media screen and(width:280px) and (height:653px) {
-    
+    .container-table100{
+      padding: 1000px;
+    }
     
   }
