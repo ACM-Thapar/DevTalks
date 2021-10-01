@@ -2,7 +2,7 @@
 
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
-
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Chivo&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Chivo&display=swap');
 @font-face {
@@ -22,6 +22,7 @@
       padding: 0rem; 
       box-sizing: border-box;
   }
+  
   body::-webkit-scrollbar{
     scroll-behavior: smooth;
   }
@@ -43,12 +44,21 @@
     -o-transition: all 0.4s;
     -moz-transition: all 0.4s;
   }
-  img{
-      width: 20%;
-      padding-left:0.625rem; 
-      padding-top: 0.625rem;
-  }
+ .acm-logo{
+  width: 20%;
+  padding-left:0.625rem; 
+  padding-top:0.625rem; 
   
+  }
+  .devtalks-logo{
+    width: 20%;
+   height: 10%;
+    margin-left: 55%;
+   
+  }
+  .images{
+    margin-top:20px;
+  }
   a:focus {
       outline: none !important;
   }
